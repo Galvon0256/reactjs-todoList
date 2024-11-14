@@ -35,7 +35,7 @@ function App() {
     if (!localStorage){
       return
     }
-    const localTodo = localStorage.getItem('todos')
+    let localTodo = localStorage.getItem('todos')
     if (!localTodo){
       return
     }
